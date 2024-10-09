@@ -7,7 +7,9 @@
 
     /* Hero  */
     
-   
+   .hero-text-container {
+    width: 85%;
+   }
     .hero-text {
         width: 95%;
         bottom: 2rem;
@@ -15,12 +17,23 @@
     }
     
     .hero-text h1 {
-        font-size: 3rem;
+        font-size: 2.7rem;
     }
 
  .inner-header h1 {
     /* color: var(--gold); */
     /* font-size: 3.15rem; */
+}
+
+/* Welcome  */
+.welcome-contact {
+    top: -50px;
+}
+.welcome .white-space {
+    height: 150px;
+}
+.welcome {
+    margin-bottom: 50px;
 }
 
 .guide h2, .our-doors h2, .about-us h2 {

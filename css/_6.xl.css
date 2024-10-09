@@ -33,6 +33,10 @@
     padding-bottom: .5em;
 }
 
+.nav-contact a {
+    font-size: 1.5rem;
+}
+
 /* Hero  */
 .hero {
     height: 90vh;
@@ -43,15 +47,40 @@
 .hero-text-container {
    right: 5rem;
 }
-   
+   .hero-text-container {
+    /* width: 90%; */
+   }
 .hero-text {
-    width: 95%;
+    width: 80%;
     bottom: 3rem;
     right: 3rem;
 }
 
 .hero-text h1 {
-    font-size: 5.5rem;
+    font-size: 5rem;
+}
+
+
+
+
+/* Welcome  */
+.welcome h2 {
+
+}
+.welcome p {
+font-size: 1.5rem;
+}
+.welcome-contact {
+    width: 500px;
+    height: 500px;
+    top: 100px;
+    border: 6px solid var(--orange);
+}
+.welcome .white-space {
+    height: 200px;
+}
+.welcome-contact a {
+    font-size: 1.5rem;
 }
 
 

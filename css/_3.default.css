@@ -336,6 +336,64 @@ h1, h2, h3, h4 {
     border-radius: 50%;
     /* height: 55px; */
 }
+
+.nav-contact a span {
+    color: var(--cyan);
+}
+/*--------------------------------------------------------------
+# Welcome
+--------------------------------------------------------------*/
+.welcome {
+    margin-bottom: 200px;
+    overflow-x: hidden;
+    margin-top: -4px;
+    background-color: var(--navy);
+    padding-top: 7rem;
+}
+.welcome h2 {
+    color: #ffffff;
+    font-size: 2.5rem;
+    padding-bottom: 1.5rem;
+}
+.welcome p {
+color: #ffffff;
+}
+.welcome .key {
+    color: var(--orange);
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+.welcome .col-12:nth-of-type(2) {
+    position: relative;
+    margin-bottom: 200px;
+}
+.welcome-contact {
+    background-color: var(--navyLight);
+    border: 3px solid var(--orange);
+    border-radius: 50%;
+    padding: 2rem;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    right: -100px;
+}
+.welcome-contact img {
+    width: 103px;
+}
+
+.welcome-contact a {
+    text-decoration: none!important;
+    text-align: right;
+    margin-right: 7rem;
+    font-size: 1.3rem;
+    color: #ffffff!important;
+}
+.welcome .white-space {
+    background-color: #ffffff;
+    height: 210px;
+    width: 100%;
+}
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -399,18 +457,6 @@ h1, h2, h3, h4 {
     font-weight: 600;
 }
 
-/*--------------------------------------------------------------
-# Welcome
---------------------------------------------------------------*/
-.welcome {
-    margin-top: -4px;
-    background-color: var(--navy);
-    padding-top: 7rem;
-    padding-bottom: 3rem;
-}
-.welcome h2 {
-    color: #ffffff;
-}
 /*--------------------------------------------------------------
 # Guide - Homepage
 --------------------------------------------------------------*/
