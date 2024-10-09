@@ -2,6 +2,8 @@
 
 @media only screen and (min-width: 1200px) {
 
+    
+
     .top-bar {
         display: flex!important;
         flex-basis: auto;
@@ -31,8 +33,29 @@
     padding-bottom: .5em;
 }
 
+/* Hero  */
+.hero {
+    height: 90vh;
+}
+.hero-img {
+    height: 100%!important;
+}
+.hero-text-container {
+   right: 5rem;
+}
+   
+.hero-text {
+    width: 95%;
+    bottom: 3rem;
+    right: 3rem;
+}
 
-    .hero-text h1, .inner-header h1 {
+.hero-text h1 {
+    font-size: 5.5rem;
+}
+
+
+     .inner-header h1 {
         font-size: 4rem;
     }
     .guide h2, .our-doors h2, .about-us h2, .testimonials h2 {

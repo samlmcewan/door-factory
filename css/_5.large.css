@@ -4,14 +4,23 @@
 
 
 
-.hero img {
-    /* height: 465px;
-    width: 534px; */
-}
 
-.hero-text h1, .inner-header h1 {
-    color: var(--gold);
-    font-size: 3.15rem;
+    /* Hero  */
+    
+   
+    .hero-text {
+        width: 95%;
+        bottom: 2rem;
+        right: 2rem;
+    }
+    
+    .hero-text h1 {
+        font-size: 3rem;
+    }
+
+ .inner-header h1 {
+    /* color: var(--gold); */
+    /* font-size: 3.15rem; */
 }
 
 .guide h2, .our-doors h2, .about-us h2 {

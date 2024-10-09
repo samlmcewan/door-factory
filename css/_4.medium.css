@@ -2,16 +2,31 @@
 
 @media (min-width: 768px) {
 
-    .hero-text h1, .inner-header h1 {
-        color: var(--gold);
-        font-size: 1.9rem;
+    .inner-header h1 {
+        /* color: var(--gold); */
+        /* font-size: 1.9rem; */
     }
 
-    .hero-text-col, .testimonials-text-col {
+     .testimonials-text-col {
         background-color: var(--navy);
     }
-    .hero-text-container, .testimonials-text-container {
-        height: fit-content;
+
+    /* Hero  */
+    
+    .hero-text-container {
+       
+        width: 75%;
+       right: 3rem;
+        margin-bottom: -4rem;
+    }
+    .hero-text {
+        width: 95%;
+        bottom: 1.5rem;
+        right: 1.5rem;
+    }
+    
+    .hero-text h1 {
+        font-size: 2.125rem;
     }
 
     .guide h2, .our-doors h2, .about-us h2, .testimonials h2 {
