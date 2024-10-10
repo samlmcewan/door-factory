@@ -10,6 +10,10 @@ body {
 h1, h2, h3, h4 {
     font-weight: 400;
 }
+h2.section-title {
+    color: var(--navy);
+    font-weight: 600!important;
+}
 .allan-regular {
     font-family: "Allan", serif;
     font-weight: 400;
@@ -21,8 +25,8 @@ h1, h2, h3, h4 {
     font-weight: 700;
     font-style: normal;
   }
-  .btn.btn-gold {
-    background-color: var(--gold);
+  .btn.btn-cyan {
+    background-color: var(--cyan);
     border-radius: 0;
     color: #ffffff;
     font-size: 1.25rem;
@@ -412,7 +416,10 @@ color: #ffffff;
 
 
     
-
+.swiper {
+    z-index: -999;
+    height: 100%;
+}
 /*--------------------------------------------------------------
 # Hero - Homepage
 --------------------------------------------------------------*/
@@ -478,7 +485,7 @@ color: #ffffff;
 }
 
 /*--------------------------------------------------------------
-# Our Doors - Homepage
+# Our Doors - Homepage - delete?
 --------------------------------------------------------------*/
 .our-doors .container-fluid {
     background-color: var(--navy);
@@ -640,12 +647,14 @@ color: #ffffff;
 
 /* Landing Cards  */
 .doors-landing-cards .sub-title {
-    color: var(--gold);
+    color: var(--cyan);
     font-size: 1.75rem;
     margin-bottom: 0;
+    text-align: center;
+    text-transform: uppercase;
 }
 .doors-landing-cards .card {
-    background-color: var(--offWhite);
+    background-color: var(--lightGray);
     transition: all .3s;
 }
 .doors-landing-cards .card-header, .doors-landing-cards .card-footer, .doors-landing-cards .card-body {
@@ -668,15 +677,15 @@ color: #ffffff;
     text-decoration: none;
     color: var(--navy);
 }
-.doors-landing-cards .row .col-md-6.col-lg-4:last-child .sub-title {
+/* .doors-landing-cards .row .col-md-6.col-lg-4:last-child .sub-title {
     visibility: hidden;
-}
+} */
 .doors-landing-cards a:hover, .doors-landing-cards .card:hover {
     background-color: var(--navy);
     cursor: pointer;
 }
 .doors-landing-cards a:hover h2, .doors-landing-cards a:hover .sub-title {
-    color: var(--gold);
+    color: var(--orange);
 }
 .doors-landing-cards .card-body {
     background-color: #ffffff;
@@ -690,6 +699,9 @@ color: #ffffff;
     .doors-child-landing-cards .card .card-body h2, .doors-child-landing-cards .card .card-body h3 {
         font-size: 2rem;
     }
+}
+.doors-landing-cards .card {
+    align-items: center;
 }
 .doors-child-landing-cards .card {
     background-color: var(--offWhite);
