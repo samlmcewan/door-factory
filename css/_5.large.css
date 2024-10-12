@@ -93,6 +93,13 @@
   
     margin-bottom: -.4rem;
 }
+
+.inner-header .img-border {
+    
+    bottom: -6.9em;
+}
+
+
 /* Footer - Large Devices */
 
 .shfooter .collapse {

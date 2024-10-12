@@ -91,13 +91,16 @@ font-size: 1.5rem;
         font-size: 2.9rem;
     }
     .testimonials h2 {
-        font-size: 4.5rem;
+        font-size: 3rem;
     }
     .testimonials-text p {
         font-size: 1.93rem;
     }
     .testimonials-text .text-footer {
         font-size: 1.125rem;
+    }
+    .testimonials .tag-line svg {
+        width: 150px!important;
     }
     .inner-header h1 {
         margin-bottom: 1rem;
@@ -130,5 +133,16 @@ font-size: 1.5rem;
     .testimonials .quotes-circle {
         width: 20%;
     }
+    .inner-header .img-border {
+        height: 100%;
+        width: 90%;
+        background-color: var(--orange);
+        position: absolute;
+        z-index: -1;
+        bottom: -7.5em;
+    }
+    /* .doors-landing-cards .col-xl-3 {
+        width: 20%;
+    } */
 }
         

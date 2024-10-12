@@ -50,8 +50,9 @@
 
     }
     .inner-header img {
-        margin-bottom: -14em;
+        /* margin-bottom: -14em; */
     }
+    
     .inner-header p {
         font-size: 1rem;
     }
@@ -78,7 +79,14 @@
         padding: 0;
         padding: 1rem 2rem;
     }
-    
+    .inner-header .img-border {
+        height: 100%;
+        width: 90%;
+        background-color: var(--orange);
+        position: absolute;
+        z-index: -1;
+        bottom: -5.9em;
+    }
 
     .cta-home .row .col:nth-of-type(1) .cta-text-container .cta-img {
         width: 80%;

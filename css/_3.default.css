@@ -402,7 +402,7 @@ color: #ffffff;
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs .container-fluid {
-    background-color: var(--gold);
+    background-color: var(--cyan);
 }
 .breadcrumb-item a {
     color: #ffffff;
@@ -706,12 +706,20 @@ width: 85%;
 }
 .testimonials h2 {
     font-size: 2.6rem;
+    margin-bottom: 0;
 }
 .testimonials h2 span {
     color: #ffffff;
 }
 .testimonials .quotes-circle {
     width: 37%;
+}
+.testimonials .tag-line h2 {
+    text-transform: uppercase;
+    color: var(--orange);
+}
+.tag-line svg {
+    width: 100px;
 }
 
 /*--------------------------------------------------------------
@@ -725,14 +733,26 @@ width: 85%;
     color: #ffffff;
 }
 .inner-header h1 {
-    color: var(--gold);
+    color: var(--orange);
     font-size: 2.6rem;
+    font-weight: 600;
 }
-
+.inner-header .col {
+    position: relative;
+}
 .inner-header img {
-    border: 10px solid var(--gold);
-    width: 100%;
+    /* border: 20px solid var(--orange); */
+    object-fit: cover;
+    width: 90%;
     margin-bottom: -5em;
+}
+.inner-header .img-border {
+    height: 100%;
+    width: 90%;
+    background-color: var(--orange);
+    position: absolute;
+    z-index: -1;
+    bottom: -5.6em;
 }
 .inner-header p:last-of-type {
     margin-bottom: 0;
@@ -855,6 +875,15 @@ width: 85%;
 }
 .doors-child-landing-cards a.card:hover img {
     opacity: .75;
+}
+
+.doors-landing-cards .card-footer .btn {
+    margin-bottom: -2rem;
+    border: 10px solid var(--lightGray);
+}
+
+.doors-landing-cards a:hover .card-footer .btn {
+    border: 10px solid var(--navy)!important;
 }
 
 /*--------------------------------------------------------------
