@@ -465,6 +465,94 @@ color: #ffffff;
 }
 
 /*--------------------------------------------------------------
+# CTA - Homepage
+--------------------------------------------------------------*/
+.cta-home {
+    background-color: var(--navy);
+}
+.cta {
+    background-color: var(--navyLight);
+    border: 5px solid var(--cyan);
+    /* padding: 2rem 3rem; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    /* padding: 1rem 3rem; */
+}
+
+.cta-home .row .col:nth-of-type(1) .cta-text-container .cta-img {
+width: 80%;
+}
+.cta-home .row .col:nth-of-type(2) .cta-text-container .cta-img {
+width: 85%;
+}
+.cta-home .row .col:nth-of-type(3) .cta-text-container .cta-img {
+width: 85%;
+}
+.cta .cta-img {
+    padding: 1.5rem 3rem 0 3rem;
+}
+.cta-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cta-text {
+    padding-top: 3rem;
+    padding-right: 0;
+    padding-bottom: .5rem;
+    z-index: 99999;
+    text-align: right;
+    align-self: end;
+    /* position: absolute;
+    bottom: 1rem;
+    right: 0; */
+}
+.cta .orange-triangle {
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+    width: 120%;
+    background-color: var(--bs-orange);
+    position: absolute;
+    bottom: 0;
+    right: -10%;
+    left: -10%;
+    z-index: 0;
+    margin-bottom: -.5rem;
+    height: 55%;
+}
+.cta-text h3 {
+    color: #ffffff;
+    font-size: 1.55rem;
+}
+/* .cta-text-container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+    width: 100%;
+    background-color: var(--bs-orange);
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+    margin-bottom: -4rem;
+} */
+/* 
+.cta-text {
+    width: 95%;
+    margin-left: auto;
+    position: absolute;
+    bottom: 1.5rem;
+    right: 1.5rem;
+}
+
+.cta-text h3 {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 600;
+} */
+/*--------------------------------------------------------------
 # Guide - Homepage
 --------------------------------------------------------------*/
 .guide .container-fluid {
@@ -588,7 +676,7 @@ color: #ffffff;
     }
 }
 .testimonials .container-fluid {
-    background-color: var(--gold);
+    background-color: var(--navy);
 }
 .testimonials img {
     width: 100%;
@@ -596,18 +684,20 @@ color: #ffffff;
     object-fit: cover;
 }
 .testimonials-text-container {
-    background-color: var(--navy);
+    background-color: var(--lightGray);
     height: 100%;
 }
 .testimonials-text {
-    border: 10px solid var(--gold)
+    /* border: 10px solid var(--gold) */
 }
 .testimonials-text p {
-    color: #ffffff;
+    color: var(--navy);
     font-size: 1.25rem;
+    margin-bottom: .5rem;
+    font-weight: 600;
 }
 .testimonials-text .text-footer {
-    color: var(--gold);
+    color: var(--cyan);
     text-transform: uppercase;
     font-size: 1rem;
 }
@@ -619,6 +709,9 @@ color: #ffffff;
 }
 .testimonials h2 span {
     color: #ffffff;
+}
+.testimonials .quotes-circle {
+    width: 37%;
 }
 
 /*--------------------------------------------------------------
@@ -818,6 +911,10 @@ color: #ffffff;
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+.forge-logo-footer {
+    width: 128px;
+    height: 128px;
+}
 footer {
     font-size: 1rem;
 }
@@ -827,14 +924,14 @@ footer {
 }
 
 footer#footer {
-    border-top: 2px solid var(--gold);
+    /* border-top: 5px solid var(--navy); */
 }
     footer a span {
         color: var(--cyan);
     }
 
     footer .footer-title {
-        font-weight: 600;
+        font-weight: 400;
     }
 
 
@@ -848,11 +945,11 @@ footer#footer {
 
         footer a:hover {
             /* text-decoration: underline; */
-            color: var(--goldDarker);
+            color: var(--cyan);
         }
 
             footer a:hover span {
-                color: var(--goldDarker);
+                color: var(--cyan);
             }
 
 
@@ -860,7 +957,7 @@ footer#footer {
     font-size: 1rem;
     /*font-weight: 500;*/
     margin-bottom: 20px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 footer ul li {
@@ -885,7 +982,7 @@ footer .fa-chevron-right {
 }
 
 .shfooter i::before {
-    color: var(--light);
+    color: var(--lightGray);
 }
 
 
@@ -957,7 +1054,7 @@ footer .fab:before {
 
 footer hr:not([size]) {
     height: 1px;
-    color: var(--hcs-blue);
+    color: var(--cyan);
     opacity: .8;
 }
 
@@ -1005,5 +1102,5 @@ footer .fa-chevron-right {
 
 .sub-footer {
     background-color: var(--navy);
-    color: var(--gold);
+    color: #ffffff;
 }

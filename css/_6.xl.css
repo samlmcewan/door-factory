@@ -109,5 +109,26 @@ font-size: 1.5rem;
         background-color: var(--navy);
         cursor: pointer;
     }
+
+
+    .cta .cta-text h3 {
+        font-size: 1.75rem;
+        padding-bottom: .75rem;
+    }
+    .cta .cta-img {
+        padding-top: 1.5rem;
+        padding-bottom: 4.5rem;
+        padding-left: 3.5rem;
+        padding-right: 3.5rem;
+    }
+    .cta .orange-triangle {
+      
+        margin-bottom: -.4rem;
+    }
+
+    /* Testimonials  */
+    .testimonials .quotes-circle {
+        width: 20%;
+    }
 }
         

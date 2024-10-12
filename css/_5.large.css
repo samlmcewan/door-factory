@@ -80,6 +80,19 @@
     border-right: 5px solid var(--gold);
 } */
 
+/* CTAs homepage  */
+.cta .cta-text h3 {
+    font-size: 1.5rem;
+    padding-bottom: .75rem;
+}
+.cta .cta-img {
+
+    padding-bottom: 3.5rem;
+}
+.cta .orange-triangle {
+  
+    margin-bottom: -.4rem;
+}
 /* Footer - Large Devices */
 
 .shfooter .collapse {
