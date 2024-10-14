@@ -1,7 +1,9 @@
 /* Extra large devices (large desktops, 1200px and up) */
 
 @media only screen and (min-width: 1200px) {
-
+h2.section-title {
+    font-size: 3rem;
+}
     
 
     .top-bar {

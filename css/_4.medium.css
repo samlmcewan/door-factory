@@ -2,10 +2,7 @@
 
 @media (min-width: 768px) {
 
-    .inner-header h1 {
-        /* color: var(--gold); */
-        /* font-size: 1.9rem; */
-    }
+ 
 
      .testimonials-text-col {
         background-color: var(--navy);
@@ -100,6 +97,15 @@
         .cta .orange-triangle {
       
             margin-bottom: -.4rem;
+        }
+
+        .door-contact .row .col:nth-of-type(1) .cta-text-container .cta-img, .door-contact .row .col:nth-of-type(3) .cta-text-container .cta-img {
+            width: 100%;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+        }
+        .door-contact .row .col:nth-of-type(2) .cta-text-container .cta-img {
+            width: 90%;
         }
         /* Footer - Medium devices */
     

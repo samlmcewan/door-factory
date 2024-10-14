@@ -72,7 +72,7 @@ h2.section-title {
     transition: .3s all;
 }
 .search-btn:hover {
-    background-color: var(--goldDarker);
+    background-color: var(--orange);
 }
 .search-btn svg {
     display: inline-block;
@@ -528,143 +528,7 @@ width: 85%;
     color: #ffffff;
     font-size: 1.55rem;
 }
-/* .cta-text-container {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    text-align: right;
-    width: 100%;
-    background-color: var(--bs-orange);
-    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
-    margin-bottom: -4rem;
-} */
-/* 
-.cta-text {
-    width: 95%;
-    margin-left: auto;
-    position: absolute;
-    bottom: 1.5rem;
-    right: 1.5rem;
-}
 
-.cta-text h3 {
-    color: #ffffff;
-    font-size: 1.5rem;
-    font-weight: 600;
-} */
-/*--------------------------------------------------------------
-# Guide - Homepage
---------------------------------------------------------------*/
-.guide .container-fluid {
-    background-color: var(--gold);
-}
-.guide h2 {
-    font-size: 2.6rem;
-}
-.guide h2 span {
-    color: #ffffff;
-}
-.guide .card {
-    background-color: transparent;
-    border: none;
-}
-.guide svg {
-    max-height: 135px;
-}
-
-/*--------------------------------------------------------------
-# Our Doors - Homepage - delete?
---------------------------------------------------------------*/
-.our-doors .container-fluid {
-    background-color: var(--navy);
-}
-.our-doors h2 {
-    color: var(--gold);
-    font-size: 2.6rem;
-}
-.our-doors h2 span {
-    color: #ffffff;
-}
-.our-doors .card {
-    background-color: transparent;
-    border-radius: 14px;
-    transition: all .3s;
-}
-.our-doors h3 {
-    text-transform: uppercase;
-}
-.our-doors h3 span, .our-doors p span {
-    color: var(--gold);
-}
-.our-doors a {
-    color: #ffffff;
-    text-decoration: none;
-}
-.our-doors svg {
-    max-height: 155px;
-    max-width: 80%;
-    object-fit: cover;
-}
-.our-doors a {
-    border: 1px solid #B6AC943a;
-}
-.our-doors .card:hover {
-    background-color: var(--gold);
-    cursor: pointer;
-}
-
-.our-doors .card:hover svg g polyline, .our-doors .card:hover svg g path, .our-doors .card:hover svg g rect, .our-doors .card:hover svg g polygon {
-    fill: var(--navy)!important;
-}
-
-.our-doors .card:hover h3, .our-doors .card:hover h3 span, .our-doors .card:hover p, .our-doors .card:hover p span {
-    color: var(--navy);
-}
-
-/*--------------------------------------------------------------
-# About Us homepage
---------------------------------------------------------------*/
-.about-us h2 {
-    font-size: 2.6rem;
-    font-weight: 600;
-}
-.about-us h2 span {
-    color: var(--gold);
-}
-.about-us .card {
-    background-color: var(--navy);
-    border-radius: 14px;
-}
-.about-us .card svg {
-    height: 100px;
-}
-.about-us .card h3 {
-    font-size: 1.5rem;
-}
-.about-us .card h3, .about-us .card p {
-    color: #ffffff;
-    text-transform: uppercase;
-}
-.about-us .card p span {
-    color: var(--gold);
-}
-.about-us a.card {
-    text-decoration: none;
-    transition: all 0.3s;
-}
-
-.about-us .card:hover {
-    background-color: var(--gold);
-    cursor: pointer;
-}
-
-.about-us .card:hover h3, .about-us .card:hover p, .about-us .card:hover p span {
-    color: var(--navy);
-}
-
-.about-us .card:hover svg, .about-us .card:hover svg g path, .about-us .card:hover svg g rect, .about-us .card:hover svg g polygon {
-    fill: var(--navy)!important;
-}
 /*--------------------------------------------------------------
 # Testimonials - Homepage
 --------------------------------------------------------------*/
@@ -687,9 +551,7 @@ width: 85%;
     background-color: var(--lightGray);
     height: 100%;
 }
-.testimonials-text {
-    /* border: 10px solid var(--gold) */
-}
+
 .testimonials-text p {
     color: var(--navy);
     font-size: 1.25rem;
@@ -757,6 +619,9 @@ width: 85%;
 .inner-header p:last-of-type {
     margin-bottom: 0;
 }
+.inner-header-h1 {
+    background-color: var(--navy);
+}
 
 /* Landing Cards  */
 .doors-landing-cards .sub-title {
@@ -817,12 +682,12 @@ width: 85%;
     align-items: center;
 }
 .doors-child-landing-cards .card {
-    background-color: var(--offWhite);
+    background-color: var(--lightGray);
     border-radius: 0;
     transition: all .3s;
 }
 .doors-child-landing-cards .card .card-footer {
-    background-color: var(--offWhiteDark);
+    background-color: var(--cyan);
     transition: all .3s;
 }
 .doors-child-landing-cards .card, .doors-child-landing-cards .card .card-body, .doors-child-landing-cards .card .card-header, .doors-child-landing-cards .card .card-footer {
@@ -846,7 +711,7 @@ width: 85%;
     padding: 3rem;
 }
 .doors-child-landing-cards .card .card-body .sub-title {
-    color: var(--gold);
+    color: var(--cyan);
 }
 
 .doors-child-landing-cards a {
@@ -854,8 +719,8 @@ width: 85%;
     text-decoration: none;
 }
 
-.doors-child-landing-cards .card .card-footer p span {
-    color: var(--goldDarker);
+.doors-child-landing-cards .card .card-footer p span, .doors-child-landing-cards .card .card-footer p {
+    color: #ffffff;
 }
 
 .doors-child-landing-cards .card .card-footer p {
@@ -870,8 +735,8 @@ width: 85%;
 .doors-child-landing-cards a:hover, .doors-child-landing-cards a:hover .card-footer {
     background-color: var(--navy);
 }
-.doors-child-landing-cards a.card:hover h2, .doors-child-landing-cards a.card:hover h3, .doors-child-landing-cards a.card:hover p {
-    color: var(--gold);
+.doors-child-landing-cards a.card:hover h2, .doors-child-landing-cards a.card:hover h3, .doors-child-landing-cards a.card:hover p, .doors-child-landing-cards a.card:hover .card-body p, .doors-child-landing-cards a.card:hover .card-footer p span {
+    color: var(--orange);
 }
 .doors-child-landing-cards a.card:hover img {
     opacity: .75;
@@ -890,26 +755,29 @@ width: 85%;
 # Pagination
 --------------------------------------------------------------*/
 .paging .page-number .btn-pager {
-    background-color: var(--navy);
-    border-radius: 0;
+    background-color: var(--lightGray);
+    border-radius: 50%;
 }
 .paging .page-number .btn-pager {
-    color: var(--gold);
-    border: 2px solid var(--navy);
+    color: var(--cyan);
+    border: 2px solid var(--lightGray);
+    font-weight: 600;
 }
 .paging .page-number .btn-pager.active {
-    color: #ffffff;
+    color: var(--navy);
+    cursor:default;
 }
 .paging .page-number .btn-pager:hover:not(.paging .page-number .btn-pager.active) {
-    background-color: var(--gold);
-    color: var(--navy);
+    background-color: var(--navy);
+    border-color: var(--navy);
+    color: #ffffff;
     cursor: pointer;
 }
 /*--------------------------------------------------------------
 # Door 
 --------------------------------------------------------------*/
 .door-info .door-heading {
-    background-color: var(--offWhite);
+    background-color: var(--lightGray);
 }
 
 .door-info .door-img img {
@@ -920,23 +788,31 @@ width: 85%;
 .door-contact {
     overflow: hidden;
 }
-.door-contact .container {
-    background-color: var(--offWhite);
+.door-contact {
+    background-color: var(--lightGray);
 }
 .door-contact .card {
-    background-color: var(--navy);
+    background-color: var(--navyLight);
 }
 .door-contact .card svg {
     height: 83px;
 }
 .door-contact .card .card-body h3 {
-    color: var(--gold);
+    color: var(--cyan);
 }
 .door-contact .card p {
     color: #ffffff;
     font-size: 1.75rem;
 }
+.door-contact h2 {
+    font-weight: 600;
+}
 
+.door-contact .row .col:nth-of-type(1) .cta-text-container .cta-img, .door-contact .row .col:nth-of-type(3) .cta-text-container .cta-img {
+    width: 100%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
